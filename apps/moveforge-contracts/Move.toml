@@ -1,0 +1,16 @@
+
+[package]
+name = "MoveForge"
+version = "1.0.0"
+authors = []
+
+[addresses]
+moveforge = "0xbfabe1c1bc25784d17dbf389bdb25e534fe8188fa5a5b8a1c1f60cb7629d4cb3"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "testnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
